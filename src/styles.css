@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+:root {
+  --color-text: #0d1a12;
+  --color-botones-primarios: #38e078;
+  --color-botones-secundarios: #e8f2ed;
+  --color-sudtitulos: #52946b;
+  --color-fondo-primario: #e5e8eb;
+  --color-input-primario: #e8f2ed;
+}
+
+body,
+html {
+  background-color: var(--color-fondo-primario);
+}
+
+.button-login,
+.button-register {
+  background-color: #7ca4ff;
+}

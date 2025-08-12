@@ -1,0 +1,32 @@
+<section class="w-full h-full">
+  <h1 class="text-2xl font-extrabold text-center">Login</h1>
+  <form>
+    <div class="mt-10">
+      <input
+        type="text"
+        id="email"
+        placeholder="Email"
+        class="w-full shadow-2xl rounded-sm p-2"
+      />
+    </div>
+
+    <div class="mt-10">
+      <input
+        type="text"
+        id="password"
+        placeholder="Password"
+        class="w-full shadow-2xl rounded-sm p-2"
+      />
+    </div>
+
+    <button class="w-full mt-10 button-login rounded-sm p-2">Login</button>
+  </form>
+  <p
+    class="text-center mt-6 underline font-light cursor-pointer"
+    routerLink="/auth/register"
+  >
+    No tienes cuenta,
+    <a class="font-extrabold">Registrate</a>.
+  </p>
+  <!-- TODO Agregar boton de google -->
+</section>
