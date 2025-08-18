@@ -1,13 +1,17 @@
 <section class="flex justify-center items-center h-screen">
-  <div
-    class="container rounded flex gap-2 justify-between bg-white shadow-2xl p-5"
-  >
-    <div class="flex-1 justify-between items-center h-full">
-      <router-outlet />
-    </div>
+  <div class="container rounded bg-white shadow-2xl text-center p-5">
+    <h1 class="pb-4 font-extralight text-3xl">
+      <span class="font-extrabold">¡Hola!</span> Ingresa o crea tu cuenta para
+      unirte a nosotros.
+    </h1>
+    <div class="flex gap-2 justify-between">
+      <div class="flex-1 justify-between items-center h-full">
+        <router-outlet />
+      </div>
 
-    <div class="flex-1">
-      <div #lottieContainer class="w-full h-full"></div>
+      <div class="flex-1">
+        <div #lottieContainer class="w-full h-full"></div>
+      </div>
     </div>
   </div>
 </section>
